@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BAYRAM\\source\\repos\\WebAppMVC\\WebAppMVC\\WebAppMVC.csproj",
+      "projectUniqueName": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebAppMVC\\WebAppMVC\\WebAppMVC.csproj",
       "projectName": "WebAppMVC",
-      "projectPath": "C:\\Users\\BAYRAM\\source\\repos\\WebAppMVC\\WebAppMVC\\WebAppMVC.csproj",
+      "projectPath": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebAppMVC\\WebAppMVC\\WebAppMVC.csproj",
       "packagesPath": "C:\\Users\\BAYRAM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BAYRAM\\source\\repos\\WebAppMVC\\WebAppMVC\\obj\\",
+      "outputPath": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebAppMVC\\WebAppMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BAYRAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
