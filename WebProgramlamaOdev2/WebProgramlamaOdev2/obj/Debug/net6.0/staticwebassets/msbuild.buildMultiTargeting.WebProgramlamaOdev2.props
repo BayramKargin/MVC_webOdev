@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebProgramlamaOdev2.props" />
+</Project>
