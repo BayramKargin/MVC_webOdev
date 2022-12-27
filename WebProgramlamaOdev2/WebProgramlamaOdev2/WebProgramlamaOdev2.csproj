@@ -6,4 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\Aksis.jpg" />
+    <None Include="wwwroot\images\beyaz-kazak.jpeg" />
+    <None Include="wwwroot\images\deneme.jpg" />
+    <None Include="wwwroot\images\giris-yap20.jpg" />
+    <None Include="wwwroot\images\grı-kazak.jpeg" />
+    <None Include="wwwroot\images\haki-kazak.jpeg" />
+    <None Include="wwwroot\images\kırmızı-kazak.jpeg" />
+    <None Include="wwwroot\images\kırmızı-kazak1.jpeg" />
+    <None Include="wwwroot\images\mavi-kazak.jpeg" />
+    <None Include="wwwroot\images\mavi-kazak1.jpeg" />
+    <None Include="wwwroot\images\siyah-kazak.jpeg" />
+    <None Include="wwwroot\images\slider.webp" />
+    <None Include="wwwroot\images\yesil-kazak.jpeg" />
+  </ItemGroup>
+
 </Project>

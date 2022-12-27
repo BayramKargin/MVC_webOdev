@@ -13,6 +13,58 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\Aksis.jpg",
+      "PackagePath": "staticwebassets\\images\\Aksis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\beyaz-kazak.jpeg",
+      "PackagePath": "staticwebassets\\images\\beyaz-kazak.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\deneme.jpg",
+      "PackagePath": "staticwebassets\\images\\deneme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\giris-yap20.jpg",
+      "PackagePath": "staticwebassets\\images\\giris-yap20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\grı-kazak.jpeg",
+      "PackagePath": "staticwebassets\\images\\grı-kazak.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\haki-kazak.jpeg",
+      "PackagePath": "staticwebassets\\images\\haki-kazak.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\kırmızı-kazak.jpeg",
+      "PackagePath": "staticwebassets\\images\\kırmızı-kazak.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\kırmızı-kazak1.jpeg",
+      "PackagePath": "staticwebassets\\images\\kırmızı-kazak1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\mavi-kazak.jpeg",
+      "PackagePath": "staticwebassets\\images\\mavi-kazak.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\mavi-kazak1.jpeg",
+      "PackagePath": "staticwebassets\\images\\mavi-kazak1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\siyah-kazak.jpeg",
+      "PackagePath": "staticwebassets\\images\\siyah-kazak.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\slider.webp",
+      "PackagePath": "staticwebassets\\images\\slider.webp"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\images\\yesil-kazak.jpeg",
+      "PackagePath": "staticwebassets\\images\\yesil-kazak.jpeg"
+    },
+    {
       "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
