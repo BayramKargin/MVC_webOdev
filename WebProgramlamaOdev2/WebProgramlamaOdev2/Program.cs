@@ -1,10 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using WebProgramlamaOdev2.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
+
 var app = builder.Build();
+//builder.Services.AddDbContext<OdevContext>(options => options.UseNpgsql("Host=localhost;Database=WebProje;Username=postgres;Password=12345"));
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
