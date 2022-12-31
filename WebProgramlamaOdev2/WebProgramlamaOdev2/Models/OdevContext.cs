@@ -15,7 +15,7 @@ namespace WebProgramlamaOdev2.Models
             optionsBuilder.UseNpgsql("Host=localhost;Database=WebProje;Username=postgres;Password=12345");
         }
         public DbSet<WebProgramlamaOdev2.Models.RegisterModel> RegisterModel { get; set; }
-        public DbSet<WebProgramlamaOdev2.Models.Login> Login { get; set; }
+        //public DbSet<WebProgramlamaOdev2.Models.Login> Login { get; set; }
 
 
     }
