@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Runtime.Intrinsics.X86;
 using System.Security.Principal;
 using WebProgramlamaOdev2.Models;
 
@@ -9,6 +10,21 @@ namespace WebProgramlamaOdev2.Controllers
 
         public IActionResult Login()
         {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Login(Login gelen)
+        {
+            OdevContext c = new OdevContext();
+            var userinfo = c.RegisterModel.FirstOrDefault(x => x.Email == gelen.Email && x.Password == gelen.Password);
+            if (userinfo != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return RedirectToAction("Login");
+            }
             return View();
         }
 

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,12 +36,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Shared/_Layoutdeneme.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRkZW5lbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Urun/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Urun/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Urun/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Urun/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Urun/UrunIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxVcnVuSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/Urun/UrunListeleAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1blxVcnVuTGlzdGVsZUFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/BAYRAM/Documents/GitHub/MVC_webOdev/WebProgramlamaOdev2/WebProgramlamaOdev2/Views/_ViewImports.cshtml]
