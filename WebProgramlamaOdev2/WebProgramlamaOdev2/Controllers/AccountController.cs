@@ -12,6 +12,8 @@ namespace WebProgramlamaOdev2.Controllers
         {
             return View();
         }
+        //CRUD
+        
         [HttpPost]
         public IActionResult Login(Login gelen)
         {
