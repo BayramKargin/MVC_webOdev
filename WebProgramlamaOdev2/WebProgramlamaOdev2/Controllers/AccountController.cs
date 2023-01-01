@@ -12,6 +12,12 @@ namespace WebProgramlamaOdev2.Controllers
         {
             return View();
         }
+        //CRUD
+        public IActionResult Register()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Login(Login gelen)
         {
@@ -27,11 +33,7 @@ namespace WebProgramlamaOdev2.Controllers
             }
             return View();
         }
-
-        public IActionResult Register()
-        {
-            return View();
-        }
+        
         [HttpPost]
         public  IActionResult Register(RegisterModel model)
         {
