@@ -41,6 +41,7 @@
 
   <ItemGroup>
     <Folder Include="Models\Entity\" />
+    <Folder Include="Security\" />
   </ItemGroup>
 
 </Project>
