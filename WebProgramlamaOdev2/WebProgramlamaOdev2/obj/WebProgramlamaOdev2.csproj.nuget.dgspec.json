@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj": {}
+    "C:\\Users\\burak\\OneDrive\\Masaüstü\\mvcweb\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj": {
+    "C:\\Users\\burak\\OneDrive\\Masaüstü\\mvcweb\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj",
+        "projectUniqueName": "C:\\Users\\burak\\OneDrive\\Masaüstü\\mvcweb\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj",
         "projectName": "WebProgramlamaOdev2",
-        "projectPath": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj",
-        "packagesPath": "C:\\Users\\BAYRAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\obj\\",
+        "projectPath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\mvcweb\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\WebProgramlamaOdev2.csproj",
+        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\mvcweb\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BAYRAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,64 +39,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[6.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.11, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
