@@ -4,13 +4,18 @@ using WebProgramlamaOdev2.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
+using WebProgramlamaOdev2.Identity;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.CodeAnalysis.Host;
+using System.Globalization;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-//builder.Services.AddDefaultIdentity<IdentityUser>
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
         .AddCookie(options =>
         {
@@ -28,6 +33,56 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 //        options => builder.Configuration.Bind("JwtSettings", options))
 //    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
 //        options => builder.Configuration.Bind("CookieSettings", options));
+
+
+builder.Services.AddSingleton<LanguageService>();
+
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+builder.Services.AddMvc()
+    .AddViewLocalization()
+    .AddDataAnnotationsLocalization(options =>
+    {
+        options.DataAnnotationLocalizerProvider = (type, factory) =>
+        {
+
+            var assemblyName = new AssemblyName(typeof(ShareResource).GetTypeInfo().Assembly.FullName);
+
+            return factory.Create("ShareResource", assemblyName.Name);
+
+        };
+
+    });
+
+
+
+builder.Services.Configure<RequestLocalizationOptions>(
+    options =>
+    {
+        var supportedCultures = new List<CultureInfo>
+            {
+                            new CultureInfo("en-US"),
+                            new CultureInfo("tr-TR"),
+            };
+
+
+
+        options.DefaultRequestCulture = new RequestCulture(culture: "tr-TR", uiCulture: "tr-TR");
+
+        options.SupportedCultures = supportedCultures;
+        options.SupportedUICultures = supportedCultures;
+        options.RequestCultureProviders.Insert(0, new QueryStringRequestCultureProvider());
+
+    }
+);
+
+
+
+builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql("Host=localhost;Database=WebProje;Username=postgres;Password=12345"));
+builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>().AddRoles<IdentityRole>().AddDefaultTokenProviders(); //resetlemede benzersiz bir token verir
+
+
+
 builder.Services.ConfigureApplicationCookie(options =>
 {
     //options.LoginPath = "/account/login"; //sessioný tanýma yetkigerektiðinde gidilecek alan
@@ -42,7 +97,9 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 var app = builder.Build();
 //builder.Services.AddDbContext<OdevContext>(options => options.UseNpgsql("Host=localhost;Database=WebProje;Username=postgres;Password=12345"));
-
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount =
+//true)
+//    .AddRoles<IdentityRole>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -53,6 +110,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseRequestLocalization();
 
 app.UseRouting();
 app.UseAuthentication();

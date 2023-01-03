@@ -70,28 +70,6 @@ namespace WebProgramlamaOdev2.Migrations
 
                     b.ToTable("Urunler");
                 });
-
-            modelBuilder.Entity("WebProgramlamaOdev2.Models.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Yetki")
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("users");
-                });
 #pragma warning restore 612, 618
         }
     }

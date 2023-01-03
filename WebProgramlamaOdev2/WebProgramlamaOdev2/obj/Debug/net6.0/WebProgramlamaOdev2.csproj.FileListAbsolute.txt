@@ -270,3 +270,10 @@ C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaO
 C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\bin\Debug\net6.0\en-US\WebProgramlamaOdev2.resources.dll
+C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\bin\Debug\net6.0\tr-TR\WebProgramlamaOdev2.resources.dll
+C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\obj\Debug\net6.0\WebProgramlamaOdev2.Resources.SharedResource.en-US.resources
+C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\obj\Debug\net6.0\WebProgramlamaOdev2.Resources.SharedResources.tr-TR.resources
+C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\obj\Debug\net6.0\WebProgramlamaOdev2.csproj.GenerateResource.cache
+C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\obj\Debug\net6.0\en-US\WebProgramlamaOdev2.resources.dll
+C:\Users\BAYRAM\Documents\GitHub\MVC_webOdev\WebProgramlamaOdev2\WebProgramlamaOdev2\obj\Debug\net6.0\tr-TR\WebProgramlamaOdev2.resources.dll

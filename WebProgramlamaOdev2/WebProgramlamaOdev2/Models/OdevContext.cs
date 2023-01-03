@@ -8,7 +8,7 @@ namespace WebProgramlamaOdev2.Models
     {
 
         
-        public DbSet<User> users { get; set; }
+        //public DbSet<User> users { get; set; }
         public DbSet<Urunler> Urunler { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -2,14 +2,14 @@
 
 @{
     ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+@*<h1>Create</h1>
 
 <h4>Urunler</h4>
 <hr />
-<div class="row">
+@*<div class="row">
     <div class="col-md-4">
         <form asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -33,11 +33,57 @@
             </div>
         </form>
     </div>
+</div>*@
+<div class="container tm-mt-big tm-mb-big">
+    <div class="row">
+        <div class="col-12 mx-auto tm-login-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="tm-block-title mb-4">CREATE</h1>
+                    </div>
+                    <div class="col-12 text-center">
+                        <h3 class="tm-block-title mb-4">Ürünler</h3>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <form method="post" class="tm-login-form">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="UrunAdi" class="control-label"></label>
+                                <input asp-for="UrunAdi" class="form-control" />
+                                <span asp-validation-for="UrunAdi" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label asp-for="UrunAcıklama" class="control-label"></label>
+                                <input asp-for="UrunAcıklama" class="form-control" />
+                                <span asp-validation-for="UrunAcıklama" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label asp-for="UrunFiyat" class="control-label"></label>
+                                <input asp-for="UrunFiyat" class="form-control" />
+                                <span asp-validation-for="UrunFiyat" class="text-danger"></span>
+                            </div>
+                            <div class="form-group mt-4">
+                                <button type="submit"
+                                        class="btn btn-primary btn-block text-uppercase">
+                                    Create
+                                </button>
+                            </div>
+                            <button href="index.html" class="mt-4 btn btn-primary btn-block text-uppercase">
+                                <a asp-action="Index">Back to List</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-<div>
+@*<div>
     <a asp-action="Index">Back to List</a>
-</div>
+</div>*@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

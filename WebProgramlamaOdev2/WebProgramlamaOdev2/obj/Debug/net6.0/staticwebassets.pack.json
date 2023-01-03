@@ -5,8 +5,172 @@
       "PackagePath": "staticwebassets\\WebProgramlamaOdev2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\arrow-down.png",
+      "PackagePath": "staticwebassets\\css\\img\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\cat-6.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\check-mark.png",
+      "PackagePath": "staticwebassets\\css\\img\\check-mark.png"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_1.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_2.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_3.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_4.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_5.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_6.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_7.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\giyim_8.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\giyim_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\offer-1.png",
+      "PackagePath": "staticwebassets\\css\\img\\offer-1.png"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\offer-2.png",
+      "PackagePath": "staticwebassets\\css\\img\\offer-2.png"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\payments.png",
+      "PackagePath": "staticwebassets\\css\\img\\payments.png"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\css\\img\\vendor-8.jpg"
+    },
+    {
       "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\css\\templatemo-style.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-style.css"
     },
     {
       "Id": "C:\\Users\\BAYRAM\\Documents\\GitHub\\MVC_webOdev\\WebProgramlamaOdev2\\WebProgramlamaOdev2\\wwwroot\\favicon.ico",

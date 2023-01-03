@@ -1,48 +1,118 @@
 ﻿@model IEnumerable<WebProgramlamaOdev2.Models.Urunler>
 
 @{
-    ViewData["Title"] = "UrunListeleAdmin";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewData["Title"] = "UrunListeleAdmin";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>UrunListeleAdmin</h1>
+@*<h1>UrunListeleAdmin</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+	<a asp-action="Create">Create New</a>
 </p>
 <table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.UrunAdi)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UrunAcıklama)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UrunFiyat)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.UrunAdi)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UrunAcıklama)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UrunFiyat)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.UrunAdi)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.UrunAcıklama)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.UrunFiyat)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.UrunAdi)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.UrunAcıklama)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.UrunFiyat)
+				</td>
+				<td>
+					<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+					<a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+					<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>*@
+<div class="container mt-5">
+	<div class="row tm-content-row">
+		<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 tm-block-col">
+			<div class="tm-bg-primary-dark tm-block tm-block-products">
+				<div class="tm-product-table-container">
+					<table class="table table-hover tm-table-small tm-product-table">
+						<thead>
+							<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.UrunAdi)
+								</th>
+								<th>
+									@Html.DisplayNameFor(model => model.UrunAcıklama)
+								</th>
+								<th>
+									@Html.DisplayNameFor(model => model.UrunFiyat)
+								</th>
+								<th></th>
+								<th></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>
+												@Html.DisplayFor(modelItem => item.UrunAdi)
+										</td>
+										<td>
+												@Html.DisplayFor(modelItem => item.UrunAcıklama)
+										</td>
+										<td>
+												@Html.DisplayFor(modelItem => item.UrunFiyat)
+										</td>
+										
+										<td>
+										<a asp-action="Create" asp-route-id="@item.Id" class=" tm-product-delete-link">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="far bi fa-plus-circle" viewBox="0 0 16 16">
+													<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+													<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+												</svg>
+											</a>
+										</td>
+										<td>
+										<a asp-action="Details" asp-route-id="@item.Id" class="tm-product-delete-link">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+													<path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+												</svg>
+											</a>
+										</td>
+										<td>
+										<a asp-action="Delete" asp-route-id="@item.Id" class="tm-product-delete-link">
+												<i class="far fa-trash-alt product-delete-icon"></i>
+											</a>
+										</td>
+										
+									</tr>
+								}
+
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

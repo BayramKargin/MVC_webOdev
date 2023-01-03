@@ -19,6 +19,14 @@
         },
         "runtime": {
           "WebProgramlamaOdev2.dll": {}
+        },
+        "resources": {
+          "en-US/WebProgramlamaOdev2.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/WebProgramlamaOdev2.resources.dll": {
+            "locale": "tr-TR"
+          }
         }
       },
       "EntityFramework/6.4.4": {

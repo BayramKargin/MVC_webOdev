@@ -15,7 +15,9 @@ namespace WebProgramlamaOdev2.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            OdevContext db = new OdevContext();
+            var model = db.Urunler.ToList();
+            return View(model);
         }
 
         public IActionResult Privacy()

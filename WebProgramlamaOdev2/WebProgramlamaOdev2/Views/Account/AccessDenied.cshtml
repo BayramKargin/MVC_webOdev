@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<WebProgramlamaOdev2.Identity.User>
+
+@if(User.IsInRole("Admin"))
+{
+	return;
+}
+else
+{
+	<h1>Yetkiniz olmayan alana erişmeye çalıştınız !</h1>
+}

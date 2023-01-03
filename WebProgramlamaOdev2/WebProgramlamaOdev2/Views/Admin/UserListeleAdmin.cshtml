@@ -1,16 +1,16 @@
-﻿@model IEnumerable<WebProgramlamaOdev2.Models.RegisterModel>
+﻿@model IEnumerable<WebProgramlamaOdev2.Identity.User>
 
 @{
     ViewData["Title"] = "UserListeleAdmin";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>UserListeleAdmin</h1>
+
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-controller="Account" asp-action="Register">Create New</a>
 </p>
-<table class="table">
+@*<table class="table">
     <thead>
         <tr>
             <th>
@@ -32,29 +32,78 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FirstName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Password)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Yetki)
-            </td>
-            <td>
-                <a asp-action="Index" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Yetki)
+                </td>
+                <td>
+                    <a asp-action="Index" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
-</table>
+</table>*@
+
+<div class="container mt-5">
+    <div class="row tm-content-row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-products">
+                <div class="tm-product-table-container">
+                    <table class="table table-hover tm-table-small tm-product-table">
+                        <thead>
+                            <tr>
+                                @*<th scope="col">@Html.DisplayNameFor(model => model.FirstName)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.LastName)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Email)</th>
+@*                                <th scope="col">@Html.DisplayNameFor(model => model.Password)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Yetki)</th>*@
+                                <th scope="col">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+@*                                    <td>@Html.DisplayFor(modelItem => item.Password)</td>*@
+                                    <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                    <td>
+                                        <a asp-controller="Admin" asp-action="EditUser" asp-route-id="@item.Id" class="tm-product-delete-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="far bi fa-plus-circle" viewBox="0 0 16 16">
+                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                            </svg>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Admin" asp-action="Delete" asp-route-id="@item.Id" class="tm-product-delete-link">
+                                            <i class="far fa-trash-alt product-delete-icon"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

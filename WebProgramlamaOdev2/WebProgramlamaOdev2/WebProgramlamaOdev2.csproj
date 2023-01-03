@@ -7,6 +7,47 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\img\arrow-down.png" />
+    <None Include="wwwroot\css\img\carousel-1.jpg" />
+    <None Include="wwwroot\css\img\carousel-2.jpg" />
+    <None Include="wwwroot\css\img\cat-1.jpg" />
+    <None Include="wwwroot\css\img\cat-2.jpg" />
+    <None Include="wwwroot\css\img\cat-3.jpg" />
+    <None Include="wwwroot\css\img\cat-4.jpg" />
+    <None Include="wwwroot\css\img\cat-5.jpg" />
+    <None Include="wwwroot\css\img\cat-6.jpg" />
+    <None Include="wwwroot\css\img\check-mark.png" />
+    <None Include="wwwroot\css\img\giyim_1.jpg" />
+    <None Include="wwwroot\css\img\giyim_2.jpg" />
+    <None Include="wwwroot\css\img\giyim_3.jpg" />
+    <None Include="wwwroot\css\img\giyim_4.jpg" />
+    <None Include="wwwroot\css\img\giyim_5.jpg" />
+    <None Include="wwwroot\css\img\giyim_6.jpg" />
+    <None Include="wwwroot\css\img\giyim_7.jpg" />
+    <None Include="wwwroot\css\img\giyim_8.jpg" />
+    <None Include="wwwroot\css\img\offer-1.png" />
+    <None Include="wwwroot\css\img\offer-2.png" />
+    <None Include="wwwroot\css\img\payments.png" />
+    <None Include="wwwroot\css\img\product-1.jpg" />
+    <None Include="wwwroot\css\img\product-2.jpg" />
+    <None Include="wwwroot\css\img\product-3.jpg" />
+    <None Include="wwwroot\css\img\product-4.jpg" />
+    <None Include="wwwroot\css\img\product-5.jpg" />
+    <None Include="wwwroot\css\img\product-6.jpg" />
+    <None Include="wwwroot\css\img\product-7.jpg" />
+    <None Include="wwwroot\css\img\product-8.jpg" />
+    <None Include="wwwroot\css\img\user.jpg" />
+    <None Include="wwwroot\css\img\vendor-1.jpg" />
+    <None Include="wwwroot\css\img\vendor-2.jpg" />
+    <None Include="wwwroot\css\img\vendor-3.jpg" />
+    <None Include="wwwroot\css\img\vendor-4.jpg" />
+    <None Include="wwwroot\css\img\vendor-5.jpg" />
+    <None Include="wwwroot\css\img\vendor-6.jpg" />
+    <None Include="wwwroot\css\img\vendor-7.jpg" />
+    <None Include="wwwroot\css\img\vendor-8.jpg" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\css\style.min.css" />
+    <None Include="wwwroot\css\templatemo-style.css" />
     <None Include="wwwroot\images\Aksis.jpg" />
     <None Include="wwwroot\images\beyaz-kazak.jpeg" />
     <None Include="wwwroot\images\deneme.jpg" />
@@ -42,6 +83,7 @@
   <ItemGroup>
     <Folder Include="Models\Entity\" />
     <Folder Include="Security\" />
+    <Folder Include="Views\csshtml\css\" />
   </ItemGroup>
 
 </Project>
