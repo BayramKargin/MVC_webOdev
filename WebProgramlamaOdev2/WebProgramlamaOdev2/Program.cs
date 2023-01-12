@@ -15,12 +15,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//<<<<<<< Updated upstream
 
+//=======
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<ApplicationDbContext>();
+//builder.Services.AddDefaultIdentity<IdentityUser>
+//>>>>>>> Stashed changes
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
         .AddCookie(options =>
         {
-            options.LoginPath = "/Account/Login/";
-            options.AccessDeniedPath = "/Account/Forbidden/";
+            options.LoginPath = "/Account/Login";
+            options.AccessDeniedPath = "/returnUrl";
         });
 //builder.Services.AddAuthorization(options =>
 //{
@@ -85,7 +91,7 @@ builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<Appl
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    //options.LoginPath = "/account/login"; //sessioný tanýma yetkigerektiðinde gidilecek alan
+    options.LoginPath = "/Account/Login"; //sessioný tanýma yetkigerektiðinde gidilecek alan
     //options.LogoutPath = "/account/logout"; //sessiondan çýkma
     //options.AccessDeniedPath = "/account/accessdenied";
     options.SlidingExpiration = true; //sessin def olarak 20 dk bunu true yaparsak her istekte 20 dk tekrar baþlar

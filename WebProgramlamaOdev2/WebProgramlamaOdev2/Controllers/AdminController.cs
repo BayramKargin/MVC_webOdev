@@ -110,6 +110,7 @@ namespace WebProgramlamaOdev2.Controllers
         }
 
 
+
         [Authorize(Roles ="Admin")]
         public IActionResult UserListeleAdmin()
         {
